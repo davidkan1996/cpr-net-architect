@@ -1,3 +1,8 @@
+# 0.6.2
+
+- Add compatibility with Cyberpunk RED - CORE v0.92.6 while retaining v0.92.4 and v0.92.5 support.
+- Publish the maintained fork and release under `davidkan`.
+
 # 0.6.1
 
 - Remove a player Netrunner from the roster on Jack Out, freeing their slot immediately.

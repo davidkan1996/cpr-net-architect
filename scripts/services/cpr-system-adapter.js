@@ -5,7 +5,8 @@ import { autoLayout } from "../graph/graph-layout.js";
 /** All version-specific CPR paths and internal imports live here. See audit. */
 export class CPRSystemAdapter {
   verify() {
-    assert(game.system.id === "cyberpunk-red-core" && game.system.version.replace(/^v/, "") === "0.92.4", "NET Architect requires Cyberpunk RED - CORE v0.92.4.");
+    const version = game.system.version.replace(/^v/, "");
+    assert(game.system.id === "cyberpunk-red-core" && ["0.92.4", "0.92.5", "0.92.6"].includes(version), "NET Architect requires Cyberpunk RED - CORE v0.92.4 through v0.92.6.");
     assert(game.release.generation === 12, "NET Architect requires Foundry v12.");
   }
   role(actor) {

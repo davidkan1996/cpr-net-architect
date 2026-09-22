@@ -53,7 +53,7 @@ test("module initializes under v12-shaped API and publishes controls/API without
   globalThis.game = {
     system: {
       id: "cyberpunk-red-core",
-      version: "v0.92.4"
+      version: "v0.92.6"
     },
     release: {
       generation: 12,

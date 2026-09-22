@@ -1,5 +1,7 @@
 # NET Architect
 
+**New in 0.6.2:** compatibility with Cyberpunk RED - CORE v0.92.6.
+
 **New in 0.6.1:** Jack Out removes the player from the runner roster and frees their slot. They become a read-only observer until the GM adds them again. See the [Jack Out guide](docs/LOCAL-TEST-0.6.1.md).
 
 **New in 0.6.0:** up to six player Netrunners in one Architecture, each with independent movement, discovery, Programs and rolls. Use **Add Player Netrunner** and **Switch Netrunner** in the live view. See the [multi-player guide](docs/LOCAL-TEST-0.6.0.md).
@@ -8,9 +10,9 @@
 
 **New in 0.5.0:** configurable login names, multiple NPC Netrunner/Demon placements and movement, two-line node names, and a window-focus fix. See the [new controls and testing guide](docs/LOCAL-TEST-0.5.0.md).
 
-Interactive **Cyberpunk RED NET Architectures** for **Foundry VTT 12.343** and **Cyberpunk RED – CORE v0.92.4**. Explore a branching network in a synchronized popup while the Netrunner's physical Token stays on the tactical Scene.
+Interactive **Cyberpunk RED NET Architectures** for **Foundry VTT 12.343** and **Cyberpunk RED – CORE v0.92.4–v0.92.6**. Explore a branching network in a synchronized popup while the Netrunner's physical Token stays on the tactical Scene.
 
-[Download the latest release](https://github.com/SleepingM4n/cpr-net-architect/releases/latest) · [Simple manual](docs/QUICK-START.md) · [Detailed reference](docs/REFERENCE.md) · [Report an issue](https://github.com/SleepingM4n/cpr-net-architect/issues)
+[Download the latest release](https://github.com/davidkan1996/cpr-net-architect/releases/latest) · [Simple manual](docs/QUICK-START.md) · [Detailed reference](docs/REFERENCE.md) · [Report an issue](https://github.com/davidkan1996/cpr-net-architect/issues)
 
 ## What it does
 
